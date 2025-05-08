@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="640" version="1.1" viewBox="0 0 960.00004 640.00079" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="q">
+   <stop stop-opacity="0" offset="0"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <linearGradient id="p">
+   <stop stop-opacity="0" offset="0"/>
+   <stop stop-opacity="0" offset=".5"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <radialGradient id="r" cx="1070" cy="700" r="40" gradientTransform="matrix(-1 0 0 1 1830 -99.999)" gradientUnits="userSpaceOnUse" xlink:href="#p"/>
+  <linearGradient id="y" x1="780" x2="800" y1="373.33" y2="373.33" gradientUnits="userSpaceOnUse" xlink:href="#q"/>
+  <linearGradient id="z" x1="410" x2="410" y1="620" y2="640" gradientUnits="userSpaceOnUse" xlink:href="#q"/>
+  <radialGradient id="s" cx="1070" cy="700" r="40" gradientTransform="translate(-1030 -99.999)" gradientUnits="userSpaceOnUse" xlink:href="#p"/>
+  <linearGradient id="aa" x1="780" x2="800" y1="373.33" y2="373.33" gradientTransform="translate(-800)" gradientUnits="userSpaceOnUse" xlink:href="#q"/>
+  <linearGradient id="ab" x1="410" x2="410" y1="620" y2="640" gradientTransform="translate(0 -746.67)" gradientUnits="userSpaceOnUse" xlink:href="#q"/>
+  <radialGradient id="t" cx="1070" cy="700" r="40" gradientTransform="matrix(-1 0 0 -1 1830 846.67)" gradientUnits="userSpaceOnUse" xlink:href="#p"/>
+  <radialGradient id="u" cx="1070" cy="700" r="40" gradientTransform="matrix(1 0 0 -1 -1030 846.67)" gradientUnits="userSpaceOnUse" xlink:href="#p"/>
+  <linearGradient id="ac" x1="2050" x2="2560" y1="-120" y2="-630" gradientTransform="matrix(1 0 0 1.0068 -1e3 4.2185)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <filter id="w" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="blur" stdDeviation="2 2"/>
+  </filter>
+  <clipPath id="v">
+   <rect transform="scale(1,-1)" y="-720" width="1080" height="720" ry="54" fill="#d70000"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(80 -54.289)">
+  <rect transform="matrix(1 0 0 -1 1e3 .95523)" x="-1e3" y="-640" width="800" height="533.33" ry="40" filter="url(#w)"/>
+  <g transform="matrix(.74074 0 0 .74074 0 106.67)" clip-path="url(#v)">
+   <rect width="1080" height="720" fill="#20603d"/>
+   <rect width="1080" height="540" fill="#fad201"/>
+   <rect width="1080" height="360" fill="#00a1de"/>
+   <g transform="translate(886.5,188.1)">
+    <g id="x">
+     <path id="ad" d="m116.1 0-80.408 4.6989 76.452 25.35-78.884-16.272 67.286 44.273-71.985-36.135 53.534 60.18-60.18-53.534 36.135 71.985-44.273-67.286 16.272 78.884-25.35-76.452-4.6989 80.408-1-117.1z" fill="#e5be01"/>
+     <use transform="scale(1,-1)" width="100%" height="100%" xlink:href="#ad"/>
+    </g>
+    <use transform="scale(-1,1)" width="100%" height="100%" xlink:href="#x"/>
+    <circle r="34.3" fill="#e5be01" stroke="#00a1de" stroke-width="3.4"/>
+   </g>
+  </g>
+  <g transform="translate(-1e3)">
+   <g transform="translate(1e3)">
+    <path d="m800 600a40 40 0 0 1 -40 40v-20a20 20 0 0 0 20 -20h20z" fill="url(#r)" opacity=".603"/>
+    <rect x="780" y="146.67" width="20" height="453.33" ry="0" fill="url(#y)" opacity=".603"/>
+    <rect x="40" y="620" width="720" height="20" fill="url(#z)" opacity=".603"/>
+    <path d="m0 600a40 40 0 0 0 40 40v-20a20 20 0 0 1 -20 -20h-20z" fill="url(#s)" opacity=".603"/>
+    <rect transform="scale(-1,1)" x="-20" y="146.67" width="20" height="453.33" ry="0" fill="url(#aa)" opacity=".603"/>
+    <rect transform="scale(1,-1)" x="40" y="-126.67" width="720" height="20" fill="url(#ab)" opacity=".603"/>
+    <path d="m800 146.67a40 40 0 0 0 -40 -40v20a20 20 0 0 1 20 20h20z" fill="url(#t)" opacity=".603"/>
+    <path d="m0 146.67a40 40 0 0 1 40 -40v20a20 20 0 0 0 -20 20h-20z" fill="url(#u)" opacity=".603"/>
+   </g>
+   <rect transform="scale(1,-1)" x="1020" y="-620" width="760" height="493.33" ry="20" fill="url(#ac)" opacity=".3"/>
+  </g>
+ </g>
+</svg>
