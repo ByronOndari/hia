@@ -2877,6 +2877,18 @@ input[type="submit"] {
     cursor: pointer;
     accent-color: #ffffff;
 }
+/*Responsive*/
+@media (max-width: 768px) {
+    .checkboxes-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .checkboxes-box {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 
